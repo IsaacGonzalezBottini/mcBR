@@ -1,0 +1,1 @@
+$execute at @s as @e[distance=..6] if data entity @s {"last_hurt_by_player": $(UUID) } if data entity @s {"last_hurt_by_player_memory_time":100} run scoreboard players set @s communist_mark 80

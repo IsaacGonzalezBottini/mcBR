@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+
+        
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "functions": [
+            {
+                "function": "set_components",
+                "components" : {
+                    "custom_name" : {"text": "TNT Jettable","color": "red"},
+                    "lore": [{"text" : "Dynamike","color":"red"}],
+                    "item_model": "tnt",
+                    "use_cooldown" : {"seconds": 4, "cooldown_group": "tnt"},
+                    "custom_data": {"tnt_throwable": true, "spawned": true}
+                }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

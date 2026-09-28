@@ -1,0 +1,46 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/enchant_book/kb"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/enchant_book/power"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/enchant_book/projectile_protection"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/enchant_book/protection"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/enchant_book/punch"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/enchant_book/quickcharge"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/enchant_book/sharpness"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/enchant_book/thorns"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/enchant_book/windcharge"
+                }
+            ]
+        }
+    ]
+}

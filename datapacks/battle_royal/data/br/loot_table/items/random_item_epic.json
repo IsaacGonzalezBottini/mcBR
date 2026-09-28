@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/epic/epic_items",
+                    "weight": 150
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/mythic/mythic_items",
+                    "weight": 10
+                }
+            ]
+        }
+    ]
+}

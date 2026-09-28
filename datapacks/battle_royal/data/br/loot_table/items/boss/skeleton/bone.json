@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+
+        
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+                "function": "set_components",
+                "components" : {
+                    "custom_name" : {"text": "Os du Roi Squelette","color": "#d6d6d6","italic":true,"bold":true,"underlined":true},
+                    "lore": [{"text" : "Squelette","color":"#d6d6d6"},{"text" : "clique droit poiur faire apparaitre des soldat Squelette","color":"blue"}],
+                    "item_model": "bone",
+                    "use_cooldown": {"seconds": 30, "cooldown_group": "bone"},
+                    "enchantment_glint_override": true,
+                    "custom_data": {"rg_functor":"br:special_items/bone/bone"},
+                    "attribute_modifiers": [{"type": "attack_damage", "amount": -10, "operation": "add_value", "slot": "mainhand", "display": {"type": "hidden"}, "id": "bone"}]
+                }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

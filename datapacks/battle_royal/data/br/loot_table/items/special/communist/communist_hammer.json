@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+
+        
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_axe",
+          "functions": [
+            {
+                "function": "set_components",
+                "components" : {
+                    "custom_name" : {"text": "Marteau Communiste","color": "red"},
+                    "unbreakable" : {},
+                    "lore": [{"text" : "Communiste","color":"red"},{"text" : "Frapper avec le marteau apres la faucille","color":"blue"}],
+                    "enchantment_glint_override": true,
+                    "custom_data": {"communist_hammer": true},
+                    "attribute_modifiers": [
+                        {
+                            "type": "attack_damage",
+                            "amount": 1,
+                            "id": "communist_hammer",
+                            "operation": "add_value",
+                            "slot": "mainhand"
+                        },
+                        {
+                            "type": "attack_speed",
+                            "amount": -3,
+                            "id": "communist_hammer",
+                            "operation": "add_value",
+                            "slot": "mainhand",
+                            "display": {
+                                "type": "hidden"
+                            }
+                        }
+                    ]
+                }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

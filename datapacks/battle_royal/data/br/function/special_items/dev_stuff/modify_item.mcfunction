@@ -1,0 +1,2 @@
+$item modify entity @s weapon.mainhand {function: "set_custom_data", tag: {"dev_stuff": true, "stack": $(stack), "rg_functor": "br:special_items/dev_stuff/eat"},}
+$item modify entity @s weapon.mainhand {function: "set_lore", mode: "replace_all", lore: [{"text" : "Marché Noir","color":"dark_gray"},{"text" : 'stack: $(stack)',"color":"blue"},{"text" : "Faites clique droit pour supprimer les items autour de vous et les stacker","color":"blue"},{"text" : "Obtenez une récompense a 100 stack","color":"blue"}]}

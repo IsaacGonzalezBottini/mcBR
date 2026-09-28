@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+
+        
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cake",
+          "functions": [
+            {
+                "function": "set_components",
+                "components" : {
+                    "custom_name" : {"text": "Gâteau","color":"light_purple","italic":false},
+                    "lore": [{"text" : "epic","color":"light_purple"}, {"text" : "consommation 10s","color":"blue"}, {"text" : "+20 coeur","color":"blue"}],
+                    "max_stack_size": 1,
+                    "consumable": {"consume_seconds": 10, "on_consume_effects": [
+                        {"type": "minecraft:apply_effects", "effects": [{"id": "instant_health", "amplifier": 10, "duration": 1, "show_icon": false, "show_particles": false}]}
+                    ]},
+                    "food": {"can_always_eat": true, "nutrition": 0, "saturation": 0}
+                }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

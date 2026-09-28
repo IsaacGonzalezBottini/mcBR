@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+
+        
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+                "function": "set_components",
+                "components" : {
+                    "custom_name" : {"text": "Casque Golem","color": "#d6d6d6","italic":true,"bold":true,"underlined":true},
+                    "lore": [{"text" : "Golem","color":"#d6d6d6"},{"text" : "resistance 2 quand vous avez moins de 5 coeurs","color":"blue"}],
+                    "attribute_modifiers": [
+                        {
+                            "type": "armor",
+                            "amount": 2.5,
+                            "id": "golem_helmet",
+                            "operation": "add_value",
+                            "slot": "head"
+                        }
+                    ],
+                    "custom_data": {"golem_helmet":true},
+                    "profile": {"properties":[{"name":"textures","value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODkwOTFkNzllYTBmNTllZjdlZjk0ZDdiYmE2ZTVmMTdmMmY3ZDQ1NzJjNDRmOTBmNzZjNDgxOWE3MTQifX19"}]}
+                }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

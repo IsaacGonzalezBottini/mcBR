@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "interact_entity": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item" : {
+            "components" : {
+                "custom_data": {
+                    "mario_mushroom" : true
+                }
+            }
+        }
+    }
+    }
+  },
+  "rewards": {
+    "function": "br:special_items/mario_mushroom/ate"
+  }
+}

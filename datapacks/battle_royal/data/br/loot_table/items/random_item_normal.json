@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/common/common_items",
+                    "weight": 50
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/uncommon/uncommon_items",
+                    "weight": 35
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/rare/rare_items",
+                    "weight": 25
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/epic/epic_items",
+                    "weight": 9
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/mythic/mythic_items",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

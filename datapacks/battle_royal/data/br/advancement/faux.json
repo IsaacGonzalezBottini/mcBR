@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "interact_entity": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+            "equipment": {
+                "mainhand": {
+                    "components": {
+                        "custom_data": {
+                            "slay": 1, "rg_functor": "br:special_items/faux/swap_an"
+                        }
+                    }
+                }
+            }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "br:special_items/faux/hit"
+  }
+}

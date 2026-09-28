@@ -1,0 +1,12 @@
+{
+  "criteria": {
+    "interact_entity": {
+      "trigger": "minecraft:using_item"
+      
+    }
+    
+  },
+  "rewards": {
+    "function": "br:testadv"
+  }
+}

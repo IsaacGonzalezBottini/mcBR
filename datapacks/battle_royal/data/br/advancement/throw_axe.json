@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "interact_entity": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "snowball",
+              "nbt": "{Tags:[\"throwed_axe\"]}"
+            }
+          }
+        }
+      }
+      
+    }
+  },
+  "rewards": {
+    "function": "br:special_items/throw_axe/hit"
+  }
+}

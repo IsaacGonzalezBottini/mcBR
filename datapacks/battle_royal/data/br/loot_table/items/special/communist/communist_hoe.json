@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+
+        
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_hoe",
+          "functions": [
+            {
+                "function": "set_components",
+                "components" : {
+                    "custom_name" : {"text": "Faucille Communiste","color": "red"},
+                    "unbreakable" : {},
+                    "lore": [{"text" : "Communiste","color":"red"},{"text" : "Frapper avec la faucille puis le marteau","color":"blue"}],
+                    "enchantment_glint_override": true,
+                    "custom_data": {"communist_hoe": true},
+                    "attribute_modifiers": [
+                        {
+                            "type": "attack_damage",
+                            "amount": 1,
+                            "id": "communist_hoe",
+                            "operation": "add_value",
+                            "slot": "mainhand"
+                        },
+                        {
+                            "type": "attack_speed",
+                            "amount": -2.4,
+                            "id": "communist_hoe",
+                            "operation": "add_value",
+                            "slot": "mainhand",
+                            "display": {
+                                "type": "hidden"
+                            }
+                        }
+                    ]
+                }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

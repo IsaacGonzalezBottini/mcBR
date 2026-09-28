@@ -1,0 +1,43 @@
+{
+    "values": [
+        "br:tick_test",
+
+        "br:game/waiting",
+
+        "br:chest_system/glint_epic",
+        "br:chest_system/glint_legend",
+
+        "br:drop_system/bus_walk",
+
+        "br:mannequin/update",
+
+        "br:special_items/right_click_detection/detect",
+        "br:special_items/infinipearl/pearl",
+        "br:special_items/golden_chestplate/regen",
+        "br:special_items/golem_helmet/resist",
+        "br:special_items/golem_iron_block/particle",
+        "br:special_items/tnt/creeper_spawn",
+        "br:special_items/mario_mushroom/effect",
+        "br:special_items/firecamp/firecamp_tick",
+        "br:special_items/firecamp/firecamp_tick_blue",
+        "br:special_items/dev_bow/tick",
+        "br:special_items/throw_axe/tick",
+        "br:special_items/fast_crossbow/tick",
+        "br:special_items/boss_breeze_charges/tick",
+
+        "br:special_items/glowy_stick/glowy_stick",
+
+        "br:boss/golem/spawner_behavior",
+        "br:boss/golem/minigolem_summonner",
+
+        "br:boss/breeze/spawner_behavior",
+        "br:boss/breeze/charges_handler",
+
+
+
+        "br:adbar/timer",
+        "br:special_items/communists/marked"
+        
+
+    ]
+}

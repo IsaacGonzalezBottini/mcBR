@@ -1,0 +1,9 @@
+
+
+phase de drop    dragon, pvp desac, fall damage disable
+phase chill      20mn
+premiere zone
+phase chill      10mn + ouverture du centre
+zone se referme sur lile
+phase chill      5mn
+zone se referme completement

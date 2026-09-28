@@ -1,0 +1,1 @@
+execute as @e[tag=legend_chest] at @s unless block ~ ~ ~ chest{Items:[]} if block ~ ~ ~ chest run particle wax_on ~ ~ ~ 0.5 0.5 0.5 0.1 1

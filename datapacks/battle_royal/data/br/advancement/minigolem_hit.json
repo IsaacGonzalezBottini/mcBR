@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "interact_entity": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+            "source_entity": {
+                "nbt": "{Tags:[\"mini_golem\"]}"
+            }
+        }
+    }
+    }
+  },
+  "rewards": {
+    "function": "br:boss/golem/hit_by_mini_golem"
+  }
+}

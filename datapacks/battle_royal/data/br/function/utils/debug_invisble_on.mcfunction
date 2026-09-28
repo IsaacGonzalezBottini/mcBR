@@ -1,0 +1,1 @@
+execute as @e[tag=debug] run data modify entity @s Invisible set value 1b

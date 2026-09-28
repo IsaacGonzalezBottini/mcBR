@@ -1,0 +1,1 @@
+execute at @e[tag=normal_chest] run setblock ~ ~ ~ chest{LootTable:"br:normal_chest"} replace

@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+
+        
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "functions": [
+            {
+                "function": "set_components",
+                "components" : {
+                    "custom_name" : {"text": "Trident D'Or","color": "gold","italic":true,"bold":true},
+                    "unbreakable" : {},
+                    "lore": [{"text" : "Légendaire","color":"gold"}],
+                    "enchantments": {"loyalty": 3},
+                    "attribute_modifiers": [
+                        {
+                            "type": "attack_damage",
+                            "amount": 5,
+                            "id": "golden_sword",
+                            "operation": "add_value",
+                            "slot": "mainhand"
+                        },
+                        {
+                            "type": "attack_speed",
+                            "amount": 0,
+                            "id": "golden_sword",
+                            "operation": "add_value",
+                            "slot": "mainhand",
+                            "display": {
+                                "type": "hidden"
+                            }
+                        }
+                    ]
+                }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

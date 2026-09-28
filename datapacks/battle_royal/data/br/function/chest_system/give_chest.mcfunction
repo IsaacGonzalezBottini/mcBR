@@ -1,0 +1,1 @@
+give @p happy_ghast_spawn_egg[custom_name=[{"text":"Spawn NormalChest egg","bold":true,"italic":false,"color":"#ffa200"}],entity_data={id:armor_stand,NoBasePlate:1b,Glowing:1b,Invulnerable:1b,NoGravity:1b,Tags:[debug,normal_chest,static]},minecraft:enchantment_glint_override=1b]

@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+
+        
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+                "function": "set_components",
+                "components" : {
+                    "custom_name" : {"text": "Epée en Fer","color":"light_purple","italic":false},
+                    "unbreakable" : {},
+                    "lore": [{"text" : "epic","color":"light_purple"}],
+                    "attribute_modifiers": [
+                        {
+                            "type": "attack_damage",
+                            "amount": 5,
+                            "id": "iron_sword",
+                            "operation": "add_value",
+                            "slot": "mainhand"
+                        },
+                        {
+                            "type": "attack_speed",
+                            "amount": -2.4,
+                            "id": "iron_sword",
+                            "operation": "add_value",
+                            "slot": "mainhand",
+                            "display": {
+                                "type": "hidden"
+                            }
+                        }
+                    ]
+                }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

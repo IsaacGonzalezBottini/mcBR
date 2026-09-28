@@ -1,0 +1,80 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/epic/cake"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/epic/cross_bow"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/epic/diamond_spears"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/epic/enderpearl"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/epic/iron_axe"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/epic/iron_boots"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/epic/iron_chestplate"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/epic/iron_leggings"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/epic/iron_sword"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/epic/milk_bucket"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/epic/firecamp"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/epic/wither_arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/uncommon/emerald",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 16
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+
+        
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_boots",
+          "functions": [
+            {
+                "function": "set_components",
+                "components" : {
+                    "custom_name" : {"text": "Bottes D'Or","color": "gold","italic":true,"bold":true},
+                    "unbreakable" : {},
+                    "enchantment_glint_override": true,
+                    "lore": [{"text" : "Légendaire","color":"gold"},{"text" : "+20% vitesse","color":"blue"}],
+                    "attribute_modifiers": [
+                      {
+                        "type": "armor",
+                        "id": "golden_boots",
+                        "amount": 3,
+                        "operation": "add_value",
+                        "slot": "feet"
+                      },
+                      {
+                        "type": "armor_toughness",
+                        "id": "golden_boots",
+                        "amount": 2,
+                        "operation": "add_value",
+                        "slot": "feet"
+                      },
+                      {
+                        "type": "movement_speed",
+                        "id": "golden_boots",
+                        "amount": 0.02,
+                        "operation": "add_value",
+                        "slot": "feet",
+                        "display": {"type": "hidden"}
+                      }
+                    ]
+                }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

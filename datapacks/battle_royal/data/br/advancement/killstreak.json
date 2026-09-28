@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "interact_entity": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+            "type": "pig"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "br:special_items/killstreak/kill"
+  }
+}

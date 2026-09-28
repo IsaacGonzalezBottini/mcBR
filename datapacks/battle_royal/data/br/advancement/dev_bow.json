@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "interact_entity": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "custom_data": {
+              "dev_bow": true
+            }
+          }
+        }
+    }
+    }
+  },
+  "rewards": {
+    "function": "br:special_items/dev_bow/using"
+  }
+}

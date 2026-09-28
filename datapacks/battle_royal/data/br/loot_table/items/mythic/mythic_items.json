@@ -1,0 +1,46 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/mythic/diamond_boots"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/mythic/diamond_chestplate"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/mythic/diamond_helmet"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/mythic/diamond_leggings"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/mythic/diamond_sword"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/mythic/flame_bow"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/mythic/gold_fragment"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/mythic/mace"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/mythic/infinipearl"
+                }
+            ]
+        }
+    ]
+}

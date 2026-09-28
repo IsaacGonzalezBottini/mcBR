@@ -1,0 +1,1 @@
+execute as @e[tag=epic_chest] at @s unless block ~ ~ ~ chest{Items:[]} if block ~ ~ ~ chest run particle wax_off ~ ~ ~ 0.5 0.5 0.5 0.1 1

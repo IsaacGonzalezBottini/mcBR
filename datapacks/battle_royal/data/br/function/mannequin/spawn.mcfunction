@@ -1,0 +1,1 @@
+$summon mannequin ~ ~ ~ {attributes:[{id:max_health, base:$(hp)}, {id:"armor",base:$(armor)}], Tags:[mannequin_test], CustomNameVisible:true, CustomName:[{"text": "HP:"}, {"text": "0"}, {"text": "/$(hp)"}, {"text": "  Armor:$(armor)"}]}

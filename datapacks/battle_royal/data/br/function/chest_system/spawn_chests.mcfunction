@@ -1,0 +1,3 @@
+function br:chest_system/spawn_chest_epic
+function br:chest_system/spawn_chest_legend
+function br:chest_system/spawn_chest_normal

@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+
+        
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "functions": [
+            {
+                "function": "set_components",
+                "components" : {
+                    "custom_name" : {"text": "Dague de Voleur","color":"dark_gray","italic":true,"bold":true,"underlined":true},
+                    "unbreakable" : {},
+                    "lore": [{"text" : "Marché Noir","color":"dark_gray"},{"text" : "eliminer un ennemie avec cette dague vous drop 2 chest epic","color":"blue"}],
+                    "enchantment_glint_override": true,
+                    "custom_data": {"thief_sword":true},
+                    "attribute_modifiers": [
+                        {
+                            "type": "attack_damage",
+                            "amount": 5,
+                            "id": "iron_sword",
+                            "operation": "add_value",
+                            "slot": "mainhand"
+                        },
+                        {
+                            "type": "attack_speed",
+                            "amount": -2.4,
+                            "id": "iron_sword",
+                            "operation": "add_value",
+                            "slot": "mainhand",
+                            "display": {
+                                "type": "hidden"
+                            }
+                        }
+                    ]
+                }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

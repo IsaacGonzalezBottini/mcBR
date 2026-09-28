@@ -1,0 +1,2 @@
+execute at @e[tag=iron_golem_spawner] run summon iron_golem ~ ~ ~ {PersistenceRequired:1b,Tags:[boss,golem_boss],attributes:[{id:scale,base:1.2},{id:attack_damage,base:10},{id:max_health,base:200}],DeathLootTable:""} 
+execute as @e[tag=golem_boss] run scoreboard players set @s last_hitted_boss 0

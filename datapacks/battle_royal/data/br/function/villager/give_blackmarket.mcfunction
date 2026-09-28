@@ -1,0 +1,2 @@
+give @s happy_ghast_spawn_egg[enchantment_glint_override=true, custom_name={"text": "Spawn Black Market", "bold":true, "color":"gold", underlined:true}, entity_data={id:armor_stand,  Invulnerable:1b, NoBasePlate:1b, Tags:[debug,static, black_market]}] 1
+

@@ -1,0 +1,2 @@
+execute at @e[tag=breeze_spawner] run summon breeze ~ ~ ~ {PersistenceRequired:1b,Tags:[boss,breeze_boss],attributes:[{id:scale,base:3},{id:max_health,base:100}, {id:knockback_resistance,base:10000}],DeathLootTable:""} 
+execute as @e[tag=breeze_boss] run scoreboard players set @s last_hitted_boss 0

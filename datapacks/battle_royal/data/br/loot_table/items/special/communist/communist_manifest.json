@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+
+        
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+                "function": "set_components",
+                "components" : {
+                    "custom_name" : {"text": "Manifeste Du Parti Communist !","color": "red"},
+                    "lore": [{"text" : "Communiste","color":"red"},{"text" : "écrit par karl marx","color":"blue"}],
+                    "enchantment_glint_override": true,
+                    "custom_data": {"manifesto": true},
+                    "written_book_content": {"title": {"raw": "Manifeste du Parti Communist"}, "author": "Karl Marx", "pages": [{"raw": "Un spectre hante l'Europe : le spectre du communisme. Toutes les puissances de la vieille Europe se sont unies en une Sainte-Alliance pour traquer ce spectre : le pape et le tsar, Metternich et Guizot [1] , les radicaux de France et les policiers d'Allemagne."},{"raw": "Quelle est l'opposition qui n'a pas été accusée de communisme par ses adversaires au pouvoir ? Quelle est l'opposition qui, à son tour, n'a pas renvoyé à ses adversaires de droite ou de gauche l'épithète infamante de communiste ? Il en résulte un double enseignement. Déjà le"}, {"raw": "communisme est reconnu comme une puissance par toutes les puissances d'Europe. Il est grand temps que les communistes exposent à la face du monde entier, leurs conceptions, leurs buts et leurs tendances; qu'ils opposent au conte du spectre communiste un"}, {"raw": "manifeste du Parti lui-même. C'est à cette fin que des communistes de diverses nationalités se sont réunis à Londres et ont rédigé le Manifeste suivant, qui est publié en anglais, français, allemand, italien, flamand et danois. "}]}
+                }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

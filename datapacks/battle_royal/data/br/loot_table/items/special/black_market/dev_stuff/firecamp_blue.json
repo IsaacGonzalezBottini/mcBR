@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+
+        
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+                "function": "set_components",
+                "components" : {
+                    "custom_name" : {"text": "Feu de camp des Ames","color":"#440550","italic":false, "bold": true},
+                    "lore": [{"text" : "Dévoreur","color":"#440550"}, {"text": "posez sur le sol, donne un effet de regeneration au alentour", "color": "blue"}, {"text": "reste pendant 30s", "color": "blue"}],
+                    "item_model": "soul_campfire",
+                    "custom_data": {"firecamp_blue": true, "rg_functor": "br:special_items/firecamp/spawn_firecamp_blue"}
+                }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

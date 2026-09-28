@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+
+        
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "functions": [
+            {
+                "function": "set_components",
+                "components" : {
+                    "custom_name" : {"text": "KillStreak","color": "dark_gray","italic":true,"bold":true,"underlined":true},
+                    "lore": [{"text" : "Marché Noir","color":"dark_gray"},{"text" : "(Gardez cet item dans votre inventaire pour profiter du bonus)","color":"blue"},
+                    {"text": "Gagnez un bonus a chaque kill:", "color": "blue"},
+                    {"text": "  1 kill : 35 emeraude", "color": "blue"},
+                    {"text": "  2 kill : +10% vitesse de déplacement", "color": "blue"},
+                    {"text": "  3 kill : +2 coeurs", "color": "blue"},
+                    {"text": "  4 kill : +0.5 dégat", "color": "blue"},
+                    {"text": "  5+ kill : Gagnez un item doré au hasard", "color": "blue"}
+                ],
+                    "item_model": "player_head",
+                    "enchantment_glint_override": true,
+                    "custom_data": {"killstreak": true}
+                }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

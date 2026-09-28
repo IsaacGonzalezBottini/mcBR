@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "interact_entity": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "components": {
+                "custom_data": {
+                  "poison_sword": true
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "br:special_items/poison_sword/hit"
+  }
+}

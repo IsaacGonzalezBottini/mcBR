@@ -1,0 +1,1 @@
+summon mannequin ~ ~ ~ {CustomName:"FakePlayer",Tags:["debug"]}

@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "interact_entity": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": { 
+          "nbt": "{Tags:[\"deenchant\"]}"
+        }
+    }
+    }
+  },
+  "rewards": {
+    "function": "br:deeanchant_system/interract"
+  }
+}

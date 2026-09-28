@@ -1,0 +1,2 @@
+worldborder set 30
+

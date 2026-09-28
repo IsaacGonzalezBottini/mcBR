@@ -1,0 +1,34 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/golden/golden_boots"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/golden/golden_chestplate"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/golden/golden_helmet"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/golden/golden_leggings"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/golden/golden_sword"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/golden/trident"
+                }
+            ]
+        }
+    ]
+}

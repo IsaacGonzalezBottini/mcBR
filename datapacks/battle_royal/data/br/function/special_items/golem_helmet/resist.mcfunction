@@ -1,0 +1,1 @@
+execute as @a if data entity @s equipment.head.components."minecraft:custom_data".golem_helmet if score @s hp matches ..10 run effect give @s resistance 1 1

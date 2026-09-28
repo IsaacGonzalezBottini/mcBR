@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+
+        
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "functions": [
+            {
+                "function": "set_components",
+                "components" : {
+                    "custom_name" : {"text": "Super Potion","color": "dark_gray","italic":true,"bold":true,"underlined":true},
+                    "lore": [{"text" : "Marché Noir","color":"dark_gray"}],
+                    "enchantment_glint_override": true,
+                    "potion_contents": {
+                      "custom_color": 0,
+                      "custom_effects": [
+                        { "id": "poison", "duration": 200, "amplifier": 0},
+                        { "id": "weakness", "duration": 200, "amplifier": 0},
+                        { "id": "slowness", "duration": 200, "amplifier": 0},
+                        { "id": "blindness", "duration": 60, "amplifier": 0},
+                        { "id": "instant_damage", "amplifier": 0}
+                    ]}
+                }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/common/leather_boots"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/common/leather_chestlpate"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/common/leather_helmet"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/common/leather_leggings"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/common/wooden_sword"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/common/arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 20
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/common/snowball",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "br:items/common/steak",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 8
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

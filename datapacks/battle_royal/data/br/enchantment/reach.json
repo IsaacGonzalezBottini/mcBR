@@ -1,0 +1,50 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "text": "Lifesteal"
+  },
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:poison",
+          "min_amplifier": 0,
+          "max_amplifier": 0,
+          "min_duration": {
+            "type": "minecraft:linear",
+            "base": 3,
+            "per_level_above_first": 2
+          },
+          "max_duration": {
+            "type": "minecraft:linear",
+            "base": 3,
+            "per_level_above_first": 2
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "is_direct": true
+          }
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 8
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:enchantable/sharp_weapon",
+  "weight": 5
+}

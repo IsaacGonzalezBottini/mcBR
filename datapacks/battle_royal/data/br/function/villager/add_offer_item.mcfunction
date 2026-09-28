@@ -1,0 +1,1 @@
+$data modify entity @s Offers.Recipes append value {maxUses: $(maxUse), buy: {count: $(cost),  id: emerald, components: {"custom_name" : {"text": "Emeraude","color":"aqua","italic":false},"lore": [{"text" : "peu commun","color":"aqua"}]}}, sell: {id: "$(id)", components: $(components), count: $(count)}}

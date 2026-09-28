@@ -1,0 +1,1 @@
+execute as @a[nbt=!{active_effects:[{id:"minecraft:regeneration"}]}] if data entity @s equipment.chest.components."minecraft:custom_data".golden_chestplate run effect give @s regeneration 10 0

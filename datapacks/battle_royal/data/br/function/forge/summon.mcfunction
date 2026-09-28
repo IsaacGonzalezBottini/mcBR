@@ -1,0 +1,2 @@
+summon interaction ~ ~ ~ {Tags:[gold_forge],height:2.1,width:1.1}
+summon villager ~ ~ ~ {NoAI:1b,NoGravity:1b,Invulnerable:1b,VillagerData:{profession:armorer,type:taiga},CustomNameVisible:1b,CustomName:{text:"Forgeron D'Or", color:"gold", bold:1b},Offers:{}}

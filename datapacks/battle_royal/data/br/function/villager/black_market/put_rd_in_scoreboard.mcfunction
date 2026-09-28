@@ -1,0 +1,1 @@
+$execute store result score rd bm run random value 1..$(ntrade)

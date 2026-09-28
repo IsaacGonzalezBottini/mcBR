@@ -1,0 +1,1 @@
+$say pl$(last_hurt_by_player)  mob$(last_hurt_by_mob)  

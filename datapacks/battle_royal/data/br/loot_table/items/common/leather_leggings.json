@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+
+        
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+                "function": "set_components",
+                "components" : {
+                    "custom_name" : {"text": "Pantalon en Cuir","color":"white","italic":false},
+                    "unbreakable" : {},
+                    "lore": [{"text" : "commun","color":"white"}]
+                }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

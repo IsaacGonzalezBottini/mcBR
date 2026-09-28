@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "interact_entity": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": { 
+          "nbt": "{Tags:[\"gold_forge\"]}"
+        }
+    }
+    }
+  },
+  "rewards": {
+    "function": "br:forge/interract"
+  }
+}
